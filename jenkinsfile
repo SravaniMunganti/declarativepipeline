@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/SravaniMunganti/declarativepipeline.git'
+                echo 'Releasing project'
             }
         }
         stage('Build') {
